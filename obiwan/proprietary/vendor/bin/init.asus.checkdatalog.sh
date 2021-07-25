@@ -12,6 +12,7 @@ mkdir /logcat/logcat_log
 restorecon /data/everbootup
 restorecon -FR /data/logcat_log
 restorecon -FR /logcat/logcat_log
+restorecon -FR /mnt/vendor/persist
 
 # Goodix touch +++
 restorecon -R /sys/devices/platform/goodix_ts.0

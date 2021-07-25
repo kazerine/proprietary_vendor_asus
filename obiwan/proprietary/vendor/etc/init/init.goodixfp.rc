@@ -62,10 +62,11 @@ service fp_shipping_cali_status /vendor/bin/cali_shipping_check
 on property:vendor.fp.cali.shipping.check=1
     start fp_shipping_cali_status
 
-service fp_cali_mv /vendor/bin/fp_cali_mv
+service fp_cali_mv /vendor/bin/sh /vendor/bin/fp_cali_mv
     class core
     user root
     group root
+    seclabel u:r:savelogmtp:s0
     disabled
     oneshot
 

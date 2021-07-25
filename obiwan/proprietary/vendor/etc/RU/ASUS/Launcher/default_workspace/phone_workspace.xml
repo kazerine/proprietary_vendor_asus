@@ -60,8 +60,8 @@
             packageName="com.google.android.apps.walletnfcrel" />
     </folder>
     <favorite
-		className="com.asus.gallery.app.EPhotoActivity"
-        packageName="com.asus.gallery"
+		className="com.android.vending.AssetBrowserActivity"
+        packageName="com.android.vending"
         screen="1"
         x="1"
         y="5" />
@@ -72,18 +72,47 @@
         x="2"
         y="5" />
     <favorite
-        className="com.yandex.browser.YandexBrowserActivity"
-        packageName="com.yandex.browser"
+        className="com.google.android.apps.messaging.ui.ConversationListActivity"
+        packageName="com.google.android.apps.messaging"
         screen="1"
         x="3"
         y="5" />
-    <favorite
-        className="com.android.vending.AssetBrowserActivity"
-        packageName="com.android.vending"
+    <folder
         screen="1"
         x="4"
-        y="5" />
-
+        y="5"
+        title="Domestic" >
+        <favorite
+            className="ru.yandex.yandexmaps.SplashScreen"
+            packageName="ru.yandex.yandexmaps" />
+        <favorite
+            className="ru.yandex.disk.MainActivity"
+            packageName="ru.yandex.disk" />
+        <favorite
+            className="ru.yandex.mail.ui.LoginActivity"
+            packageName="ru.yandex.mail" />
+        <favorite
+            className="ru.mail.instantmessanger.flat.main.MainActivity"
+            packageName="com.icq.mobile.client" />
+        <favorite
+            className="ru.mail.search.electroscope.ui.activity.AssistantActivity"
+            packageName="ru.mail.search.electroscope" />
+        <favorite
+            className="ru.mail.portal.ui.activity.NewTabPageActivity"
+            packageName="ru.mail.portal" />
+        <favorite
+            className="ru.ok.streamer.ui.main.StartActivity"
+            packageName="ru.ok.live" />
+        <favorite
+            className="ru.ok.android.ui.activity.main.OdklActivity"
+            packageName="ru.ok.android" />
+        <favorite
+            className="com.ncloudtech.cloudoffice.android.myfm.launch.LaunchActivity"
+            packageName="com.ncloudtech.cloudoffice" />
+        <favorite
+            className="com.kms.free.PermissionsActivityLauncher"
+            packageName="com.kms.free" />
+    </folder>
 
     <!-- screen [1] -->
     <folder
@@ -132,8 +161,8 @@
         x="0"
         y="0" />
     <favorite
-        className="com.google.android.apps.messaging.ui.ConversationListActivity"
-        packageName="com.google.android.apps.messaging"
+        className="com.yandex.browser.YandexBrowserActivity"
+        packageName="com.yandex.browser"
         container="-103"
         screen="1"
         x="1"
